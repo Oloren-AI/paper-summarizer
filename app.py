@@ -3,6 +3,7 @@ from pyzotero import zotero
 import pypdf
 import openai
 
+"""Copy pasted from Chat with Papers"""
 def parse_pdf(path, chunk_chars=2000, overlap=50):
     pdfFileObj = open(path, "rb")
     pdfReader = pypdf.PdfReader(pdfFileObj)
